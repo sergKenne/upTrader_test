@@ -39,6 +39,8 @@ $(document).ready(function() {
 
 				if( windowWidth <= 426) {
 					$(".navigation__sub-item").css({
+						"background-image" : "url(../img/computer-mobile.png)",
+						"background-repeat" : "no-repeat",
 						"background-position": "-280px bottom "
 					});
 				}
