@@ -41,7 +41,7 @@ $(document).ready(function() {
 					$(".navigation__sub-item").css({
 						"background-image" : "url(../img/computer-mobile.png)",
 						"background-repeat" : "no-repeat",
-						"background-position": "-280px bottom "
+						"background-position": "-280px bottom " 
 					});
 				}
 			}
