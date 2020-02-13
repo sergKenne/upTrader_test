@@ -190,7 +190,7 @@ body {
              background-position: -600px 0;
         }
 
-        @media screen and (max-width: 630px) {
+        @media screen and (max-width: 631px) {
             background-image: url(../img/bg-desktop.jpg);
             background-repeat: no-repeat;
             background-position: -550px 0 ;
@@ -458,6 +458,19 @@ body {
             position: static;
             padding: 0 40px;
             padding-bottom: 280px;
+
+            background-image: url(../img/computer-mobile.png);
+            background-repeat : no-repeat;
+            background-position: -90px bottom ;
+
+        }
+
+        @media screen and (max-width: 550px) {
+           background-position: -200px bottom ;
+        }
+
+        @media screen and (max-width: 376px) {
+           background-position: -300px bottom ;
         }
     }
 
@@ -559,6 +572,16 @@ body {
 
 .hide-js {
     display: none;
+}
+
+.img-desktop-js {
+    background-image: url(../img/bg-desktop.jpg);
+    background-repeat: no-repeat;
+}
+
+.img-computer-js {
+    background-color: #f3f2da;
+    background-image : none;
 }
 
 
